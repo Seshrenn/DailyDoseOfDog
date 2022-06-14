@@ -1,0 +1,91 @@
+/*
+Challenge:
+Add colors to the site based on the provided design.
+
+pink: #EFB0C9
+blue: #a2d2ff
+white: #ffffff
+*/
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#EDE5E4,#E0C0BE);
+    color: #AA8E75;
+    text-shadow: 0 0 2px #E6CBC7;
+}
+
+#pupper {
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #E0C0BE;
+}
+
+
+.header {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#wholesome {
+    padding: 5px 10px;
+    border-radius:5px;
+    background:#D7C5C1;
+    margin-bottom: 12px;
+    margin-top:12px;
+}
+
+#always {
+    padding: 5px 10px;
+    border-radius:5px;
+    background:#D7C5C1;
+    margin: 0;
+}
+
+.giftWrapper {
+    margin-top: 50px;
+}
+
+.giftImg {
+    width: 400px;
+    height:400px;
+    border: 5px solid white;
+    border-radius:10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: contain;
+    margin:0 auto;
+}
+
+.giftTitle {
+    padding-top: 30px;
+}
+
+#firstDog:hover {
+    background-image: url(images/dog1.gif);
+}
+
+#secondDog:hover {
+    background-image: url(images/stumpy.gif);
+}
+
+#thirdDog:hover {
+    background-image: url(images/pomwhich.gif);
+}
+
+#fourthDog:hover {
+    background-image: url(images/malafloof.gif);
+}
+
+
+#goodbye:hover {
+    background-image: url(images/bye.gif);
+    background-size:cover;
+}
+
+.footer {
+    width:400px;
+    margin: 60px auto 20px;
+    font-size: 25px;
+}
